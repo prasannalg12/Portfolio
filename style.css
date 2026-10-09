@@ -317,116 +317,45 @@ body {
 }
 
 
-/* =========================
-   ABOUT
-========================= */
+/* ABOUT SECTION */
 
 .about {
-    min-height: 720px;
+    min-height: 650px;
 
     display: grid;
 
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.2fr;
 
-    gap: 50px;
+    gap: 80px;
 
-    padding: 100px 80px;
+    padding: 120px 100px;
 
     background: #efe4d4;
 }
 
-
-.about-left h2,
-.skills-heading h2,
-.projects-title h2,
-.journey-heading h2,
-.contact-content h2 {
+.about-left h2 {
     font-family: "DM Serif Display", serif;
-
     font-size: clamp(60px, 6vw, 100px);
-
-    line-height: 0.8;
-
+    line-height: 0.9;
     margin-top: 25px;
 }
 
-.about-left h2 i,
-.skills-heading h2 i,
-.projects-title h2 i,
-.journey-heading h2 i,
-.contact-content h2 i {
+.about-left h2 i {
     font-family: "Caveat", cursive;
-
     font-weight: 500;
 }
-
 
 .underline {
     width: 130px;
     height: 3px;
-
     background: #687d6c;
-
     margin-top: 35px;
-
     transform: rotate(-3deg);
 }
 
-
-.photo-polaroid {
-    position: relative;
-
-    width: 270px;
-
-    margin: 30px auto;
-
-    padding: 15px 15px 35px;
-
-    background: white;
-
-    transform: rotate(5deg);
-
-    box-shadow: 0 12px 25px rgba(40, 30, 20, 0.15);
-}
-
-.photo-polaroid img {
-    width: 100%;
-    height: 300px;
-
-    object-fit: cover;
-}
-
-.photo-polaroid p {
-    font-family: "Caveat", cursive;
-
-    text-align: center;
-
-    font-size: 21px;
-
-    margin-top: 10px;
-}
-
-
-.mini-tape {
-    position: absolute;
-
-    width: 85px;
-    height: 24px;
-
-    background: rgba(222, 193, 144, 0.75);
-
-    top: -12px;
-    left: 90px;
-
-    transform: rotate(-5deg);
-}
-
-
 .about-right {
-    padding-top: 50px;
-
+    padding-top: 30px;
     font-size: 16px;
-
     line-height: 1.8;
 }
 
@@ -434,47 +363,33 @@ body {
     margin-bottom: 25px;
 }
 
-
 .sticky-note {
     display: flex;
     flex-direction: column;
-
     width: 180px;
-
     padding: 20px;
-
     background: #d7d5a7;
-
     font-family: "Caveat", cursive;
-
     font-size: 22px;
-
     transform: rotate(-4deg);
-
     margin: 30px 0;
 }
 
-
 .currently {
     border-top: 1px dashed #78847d;
-
     padding-top: 20px;
 }
 
 .currently h3 {
     font-family: "Caveat", cursive;
-
     font-size: 28px;
-
     margin-bottom: 10px;
 }
 
 .currently p {
     font-size: 14px;
-
-    line-height: 1.6;
+    line-height: 1.8;
 }
-
 
 /* =========================
    SKILLS
